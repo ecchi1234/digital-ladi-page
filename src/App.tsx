@@ -1,7 +1,11 @@
-import "./app.css";
+import Navbar from "@/components/Navbar";
 
 function App() {
-  return <div>Hello world!</div>;
+  return (
+    <div className="bg-primary-default text-neutral-white font-poppins">
+      <Navbar />
+    </div>
+  );
 }
 
 export default App;
